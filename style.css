@@ -51,12 +51,14 @@ body {
     border: 1px solid rgba(0, 112, 155, 0.69);
     color: rgba(0, 112, 155, 0.69);
     margin-top: -1px;
+    outline: none;
 }
 
 .input-default:focus {
     background-color: rgba(0, 112, 155, 0.03);
 }
 
-.contact-form-select__item:hover {
-    background-color: rgba(0, 112, 155, 0.08);
+.contact-form-select__item:hover,
+.contact-form-select__item:focus {
+    background-color: rgba(0, 112, 155, 0.1);
 }
