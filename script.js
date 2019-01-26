@@ -198,7 +198,7 @@ outputList.addEventListener('keydown', (e) => {
         case 'ArrowUp':
             if (e.target !== outputList.firstElementChild) {
                 e.target.previousElementSibling.focus();
-            }
+            } else inputLine.focus();
             break;
         case 'Enter':
             selectMachine.transition('CHOOSE', e.target);
